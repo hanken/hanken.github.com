@@ -4,7 +4,9 @@
  background-color: #2d2d2d;
  color: #afafaf;
 }
-
+.unit-article ul.posts li {
+	list-style: none outside none;
+}
 .unit-article ul.posts li span.slug {
  border-bottom: 1px dashed #2D2D2D;
     display: block;
@@ -21,11 +23,9 @@
     padding-top: 10px;
 }
 
-
 .unit-article ul.posts li {
   margin-top: 25px;
 }
-
 
 .unit-article ul.posts li a {
 	font-size: 1.2em;

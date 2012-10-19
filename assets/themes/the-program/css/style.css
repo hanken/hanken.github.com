@@ -80,7 +80,6 @@ a:visited {
   color: #551a8b;
 }
 a:hover {
-  color: #06e;
 }
 a:focus {
   outline: thin dotted;
@@ -563,10 +562,6 @@ a:visited {
   color: #141414;
   text-decoration: none;
 }
-a:hover {
-  color: #474747;
-  text-decoration: none;
-}
 /* HIGHLIGHTER */
 pre {
   margin-bottom: 1.625em;
@@ -644,7 +639,6 @@ pre {
 .unit-article .entry-content h4 a:hover,
 .unit-article .entry-content h5 a:hover,
 .unit-article .entry-content h6 a:hover {
-  color: #474747;
   border: 0;
 }
 .unit-article .entry-content:first-child h2,
@@ -857,11 +851,11 @@ pre {
 /* FOOTER
 ----------------------------------------------- */
 .the-footer a:link {
-  color: #2d2d2d;
+  color: #DF3D4D;
   border: 0;
 }
 .the-footer a:visited {
-  color: #2d2d2d;
+  color: #DF3D4D;
   border: 0;
 }
 .the-footer a:hover {
@@ -914,11 +908,11 @@ pre {
   padding: 26px;
 }
 .the-footer a:link {
-  color: #2d2d2d;
+ color: rgba(250, 250, 250, 0.8);
   border: 0;
 }
 .the-footer a:visited {
-  color: #2d2d2d;
+ color: rgba(250, 250, 250, 0.8);
   border: 0;
 }
 .the-footer a:hover {
@@ -951,6 +945,9 @@ pre {
 	Tablet
 */
 @media only screen and (min-width: 768px) {
+	.content {
+	padding-top:60px;
+}
   .the-header .unit-head {
     padding: 0;
   }
@@ -964,9 +961,11 @@ pre {
     display: block;
     height: 26px;
     font-size: 1.6em;
+    padding-right: 10px;
   }
   .the-header .unit-head .nav-global li a:hover {
     background-color: #DF3D4D;
+
    /*
  color: #474747;
 */
@@ -990,6 +989,7 @@ color: #FAFAFA;
   }
   .the-header .unit-head .nav-global .logo a:hover {
     background-color: transparent;
+    color: #DF3D4D;
   }
 }
 /*
@@ -1026,7 +1026,27 @@ color: #FAFAFA;
     padding: 0 0 0 26px;
     width: 420px;
   }
+.the-footer a:link {
+	color: #2d2d2d;
+  border: 0;
 }
+.the-footer a:visited {
+	color: #2d2d2d;
+  border: 0;
+}
+.the-footer a:hover {
+  border: 0;
+}
+.the-footer a strong {
+  font-weight: bold;
+  border: 0;
+}
+.the-footer a:hover strong {
+  font-weight: bold;
+  color: #DF3D4D;
+  border: 0;
+}
+
 /*
 	Huge-screen layout 
 */
