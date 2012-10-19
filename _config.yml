@@ -9,14 +9,15 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : FRNK
+title : FRNK://
 tagline: it's easy 
 author :
   name : Franco Fallica
   email : franco.fallica@gmail.com
   github : hanken
-  twitter : 
-  feedburner : feedname
+  twitter : francenhanken
+  feedname : frnk
+  intro : bla bli blo
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -81,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : frnk-blog
     livefyre :
       site_id : 123
     intensedebate :
@@ -99,7 +100,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-35720510-1'
     getclicky :
       site_id : 
     mixpanel :
