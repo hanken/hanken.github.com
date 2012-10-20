@@ -17,7 +17,7 @@ author :
   github : hanken
   twitter : francenhanken
   feedname : frnk
-  intro : "<p>Hi, I am <a href='/about.html'><strong>franco</strong></a> and this is my blog.<br />If you like it, you might want to</p>" 
+  intro : "<p>Hi, I am <a href='/about.html'><strong>franco</strong></a> and this is my blog.<br />It's built with <a href='http://github.com/mojombo/jekyll'><strong>Jekyll</strong></a> and runs on <a href='http://pages.github.com/'><strong>github pages</strong></a>.</p>" 
 	
 
 # The production_url is only used when full-domain names are needed

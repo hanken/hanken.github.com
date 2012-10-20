@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Home
+title: Welcome
 tagline: 
 ---
 {% include JB/setup %}
     
-### Rescent Posts
+## Rescent Posts
 
 
 <ul class="posts">
