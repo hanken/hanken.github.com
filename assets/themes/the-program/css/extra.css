@@ -1,10 +1,19 @@
 .the-header .unit-head .nav-global li {
 background: url("/assets/themes/the-program/skin/100-90-5-monochrome.png") repeat scroll 0 0 #E9E0C8;
 }
+
+
 .related h1 {
 	border-bottom: 5px solid #2d2d2d;
 	margin-top: 60px;
 	margin-bottom: 15px;
+}
+
+.unit-article .unit-foot {
+    border-top:0px;
+    clear: both;
+    padding-top:0px;
+    position: relative;
 }
 
 div.related {
@@ -18,8 +27,12 @@ margin: 0 -26px;
 	padding-top: 15px;
 }
 
+body {
+	background: url("/assets/themes/the-program/skin/100-90-5-monochrome.png") repeat scroll 0 0 #E9E0C8;
+}
+
 .body .unit-body {
-padding-bottom: 0;
+padding: 0 26px 26px;
 }
 
 div.misc-content {
