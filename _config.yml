@@ -4,13 +4,13 @@ permalink: /:month-:day-:year/:title.html
 theme:
 
   # Site name
-  site_name: I ❤ creating
+  site_name: FRNK
 
   # Google analytics UID
-  google_analytics_uid: UA-27533624-1
+  google_analytics_uid: 
 
   # Disqus shortname, for comments
-  disqus_shortname: stephan83
+  disqus_shortname: frnk-blog
 
   # Number of featured posts on homepage
   homepage_featured: 1
@@ -20,3 +20,11 @@ theme:
 
   # Number of words to display in post summaries
   featured_wordcount: 20
+
+author :
+  name : Franco Fallica
+  email : franco.fallica@gmail.com
+  github : hanken
+  twitter : francenhanken
+  feedname : frnk
+

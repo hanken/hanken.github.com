@@ -1,8 +1,12 @@
-# Stephan Florquin's Jekyll theme
+# My Blog based on Jekyll and a theme by Stephan Florquin
+
+
+
+### Stephan Florquin's Jekyll theme
 
 See [this post for instructions](http://stephan83.github.com/12-07-2011/use-this-theme-on-github.html).
 
-## License
+### License
 
 **MIT license**
 
