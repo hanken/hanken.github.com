@@ -1,0 +1,6 @@
+#logo a {
+	text-transform: uppercase;
+  	font-size: .9em;
+  	display: block;
+ 	padding: .45em 0 .45em 1em;
+}
