@@ -4,3 +4,50 @@
   	display: block;
  	padding: .45em 0 .45em 1em;
 }
+
+h1 {
+  font-size: 2.4em;
+  text-decoration: none;
+  color: #DD3F44;
+  line-height: 1.2em;
+  margin-bottom: .6em;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin-bottom: .2em;
+  color: #6C9474;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin: 2em 0 1em;
+  color: #B7BD83;
+}
+
+a {
+  text-decoration: none;
+  color: #DD3F44;
+}
+
+blockquote {
+  font-style: italic;
+  position: relative;
+  padding: 0 2em;
+  margin-top: 2em;
+}
+
+header {
+  background: #6C5FB5;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: solid 1px #800;
+  z-index: 32000;
+}
+
+header div {
+  width: 560px;
+  margin: 0 auto;
+}
